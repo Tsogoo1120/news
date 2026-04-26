@@ -3,6 +3,7 @@ import HomePage from '../views/HomePage.vue'
 import EconomyPage from '../views/EconomyPage.vue'
 import PoliticsPage from '../views/PoliticsPage.vue'
 import ArticlePage from '../views/ArticlePage.vue'
+import ArticlesPage from '../views/ArticlesPage.vue'
 
 export default createRouter({
   history: createWebHistory(),
@@ -10,6 +11,7 @@ export default createRouter({
     { path: '/', component: HomePage },
     { path: '/politics', component: PoliticsPage },
     { path: '/economy', component: EconomyPage },
+    { path: '/articles', component: ArticlesPage },
     { path: '/article/:id', component: ArticlePage },
   ],
   scrollBehavior: () => ({ top: 0 }),

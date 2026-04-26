@@ -63,9 +63,9 @@ export default {
         full: '0.75rem',
       },
       fontFamily: {
-        headline: ['Work Sans'],
-        body: ['Inter'],
-        label: ['Inter'],
+        headline: ['Roboto'],
+        body: ['Roboto'],
+        label: ['Roboto'],
       },
     },
   },
